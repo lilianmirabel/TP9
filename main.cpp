@@ -3,6 +3,6 @@
 
 
 int main() {
-    est_texte texte;
+    es_texte texte;
     texte.
 }
