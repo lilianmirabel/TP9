@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(TP9 main.cpp
         Image.cpp
-        Image.h)
+        Image.h
+        es_texte.cpp)
