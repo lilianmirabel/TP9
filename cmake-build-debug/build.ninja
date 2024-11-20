@@ -61,12 +61,6 @@ build CMakeFiles/TP9.dir/Image.cpp.obj: CXX_COMPILER__TP9_unscanned_Debug C$:/Us
   OBJECT_DIR = CMakeFiles\TP9.dir
   OBJECT_FILE_DIR = CMakeFiles\TP9.dir
 
-build CMakeFiles/TP9.dir/es_texte.cpp.obj: CXX_COMPILER__TP9_unscanned_Debug C$:/Users/lilia/OneDrive$ -$ etu.univ-lyon1.fr/Algorithmique,$ Programmation$ Et$ Complexité/TP/TP9/es_texte.cpp || cmake_object_order_depends_target_TP9
-  DEP_FILE = CMakeFiles\TP9.dir\es_texte.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\TP9.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP9.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP9
@@ -75,7 +69,7 @@ build CMakeFiles/TP9.dir/es_texte.cpp.obj: CXX_COMPILER__TP9_unscanned_Debug C$:
 #############################################
 # Link the executable TP9.exe
 
-build TP9.exe: CXX_EXECUTABLE_LINKER__TP9_Debug CMakeFiles/TP9.dir/main.cpp.obj CMakeFiles/TP9.dir/Image.cpp.obj CMakeFiles/TP9.dir/es_texte.cpp.obj
+build TP9.exe: CXX_EXECUTABLE_LINKER__TP9_Debug CMakeFiles/TP9.dir/main.cpp.obj CMakeFiles/TP9.dir/Image.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP9.dir
